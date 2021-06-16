@@ -26,6 +26,9 @@
 		4880B678267A2B2C00BE8BAE /* Paper Flowers.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4880B677267A2B2C00BE8BAE /* Paper Flowers.ttf */; };
 		4880B67A267A2B3300BE8BAE /* CaviarDreams.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4880B679267A2B3300BE8BAE /* CaviarDreams.ttf */; };
 		4880B67C267A2B3800BE8BAE /* Cherolina.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4880B67B267A2B3800BE8BAE /* Cherolina.ttf */; };
+		ECF04B35267AA10300893FEA /* welcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF04B34267AA10300893FEA /* welcomeViewController.swift */; };
+		ECF04B37267AABCA00893FEA /* selfImprovementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF04B36267AABCA00893FEA /* selfImprovementViewController.swift */; };
+		ECF04B39267AAD4000893FEA /* mentalHealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF04B38267AAD3F00893FEA /* mentalHealthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,9 @@
 		4880B677267A2B2C00BE8BAE /* Paper Flowers.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Paper Flowers.ttf"; sourceTree = "<group>"; };
 		4880B679267A2B3300BE8BAE /* CaviarDreams.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams.ttf; sourceTree = "<group>"; };
 		4880B67B267A2B3800BE8BAE /* Cherolina.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cherolina.ttf; sourceTree = "<group>"; };
+		ECF04B34267AA10300893FEA /* welcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = welcomeViewController.swift; sourceTree = "<group>"; };
+		ECF04B36267AABCA00893FEA /* selfImprovementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfImprovementViewController.swift; sourceTree = "<group>"; };
+		ECF04B38267AAD3F00893FEA /* mentalHealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mentalHealthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,9 @@
 				1867F78326793B6700CF2741 /* Info.plist */,
 				1867F77B26793B6300CF2741 /* oneWithYou.xcdatamodeld */,
 				1832BE54267A7A910043F66E /* RelaxationViewController.swift */,
+				ECF04B34267AA10300893FEA /* welcomeViewController.swift */,
+				ECF04B36267AABCA00893FEA /* selfImprovementViewController.swift */,
+				ECF04B38267AAD3F00893FEA /* mentalHealthViewController.swift */,
 			);
 			path = oneWithYou;
 			sourceTree = "<group>";
@@ -197,7 +206,10 @@
 			files = (
 				1867F77726793B6300CF2741 /* ViewController.swift in Sources */,
 				1832BE55267A7A910043F66E /* RelaxationViewController.swift in Sources */,
+				ECF04B39267AAD4000893FEA /* mentalHealthViewController.swift in Sources */,
 				1867F77326793B6300CF2741 /* AppDelegate.swift in Sources */,
+				ECF04B35267AA10300893FEA /* welcomeViewController.swift in Sources */,
+				ECF04B37267AABCA00893FEA /* selfImprovementViewController.swift in Sources */,
 				1867F77D26793B6300CF2741 /* oneWithYou.xcdatamodeld in Sources */,
 				1867F77526793B6300CF2741 /* SceneDelegate.swift in Sources */,
 			);

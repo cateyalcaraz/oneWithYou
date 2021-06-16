@@ -14,11 +14,19 @@ class RelaxationViewController: UIViewController {
 
     @IBAction func happyPressed(_ sender: UIButton) {
         spotifyHappyButton.isHidden = false
+        if let url = NSURL(string: "https://www.spotify.com/us/") {
+        UIApplication.shared.open(url as URL, options:[:], completionHandler:nil)
+        }
     }
+    
+    @IBAction func exercisesButton(_ sender: UIButton) {
+        
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
             spotifyHappyButton.isHidden = true
         
     }
