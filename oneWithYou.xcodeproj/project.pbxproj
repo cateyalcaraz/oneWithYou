@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1832BE55267A7A910043F66E /* RelaxationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1832BE54267A7A910043F66E /* RelaxationViewController.swift */; };
 		1867F77326793B6300CF2741 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1867F77226793B6300CF2741 /* AppDelegate.swift */; };
 		1867F77526793B6300CF2741 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1867F77426793B6300CF2741 /* SceneDelegate.swift */; };
 		1867F77726793B6300CF2741 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1867F77626793B6300CF2741 /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1832BE54267A7A910043F66E /* RelaxationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxationViewController.swift; sourceTree = "<group>"; };
 		1867F76F26793B6300CF2741 /* oneWithYou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oneWithYou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1867F77226793B6300CF2741 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1867F77426793B6300CF2741 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				1867F78026793B6700CF2741 /* LaunchScreen.storyboard */,
 				1867F78326793B6700CF2741 /* Info.plist */,
 				1867F77B26793B6300CF2741 /* oneWithYou.xcdatamodeld */,
+				1832BE54267A7A910043F66E /* RelaxationViewController.swift */,
 			);
 			path = oneWithYou;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1867F77726793B6300CF2741 /* ViewController.swift in Sources */,
+				1832BE55267A7A910043F66E /* RelaxationViewController.swift in Sources */,
 				1867F77326793B6300CF2741 /* AppDelegate.swift in Sources */,
 				1867F77D26793B6300CF2741 /* oneWithYou.xcdatamodeld in Sources */,
 				1867F77526793B6300CF2741 /* SceneDelegate.swift in Sources */,
