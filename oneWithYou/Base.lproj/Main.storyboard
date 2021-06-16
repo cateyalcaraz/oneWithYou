@@ -1,24 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Happpyal-Regular.ttf">
+            <string>Happpyal-Regular</string>
+        </array>
+        <array key="bunny.ttf">
+            <string>bunny</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="oneWithYou" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homepic" translatesAutoresizingMaskIntoConstraints="NO" id="2xZ-wM-cQb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gx7-Ga-oDQ">
+                                <rect key="frame" x="54" y="159" width="307" height="395"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MENU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wt4-rq-dke">
+                                        <rect key="frame" x="97" y="35" width="112" height="40"/>
+                                        <fontDescription key="fontDescription" name="Happpyal-Regular" family="Happpyal" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AKc-Zc-HGX">
+                                        <rect key="frame" x="8" y="132" width="291" height="34"/>
+                                        <color key="backgroundColor" red="0.95139625153644258" green="0.86502304215903192" blue="0.84711259016516938" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="15"/>
+                                        <state key="normal" title="relaxtion">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n24-8K-YhJ">
+                                        <rect key="frame" x="8" y="251" width="291" height="34"/>
+                                        <color key="backgroundColor" red="0.95139625149999996" green="0.86502304220000004" blue="0.84711259019999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="15"/>
+                                        <state key="normal" title="mental health + hotlines">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bxz-0R-LHQ">
+                                        <rect key="frame" x="8" y="190" width="291" height="34"/>
+                                        <color key="backgroundColor" red="0.95139625149999996" green="0.86502304220000004" blue="0.84711259019999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="15"/>
+                                        <state key="normal" title="self improvement">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="separatorColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="wt4-rq-dke" secondAttribute="trailing" constant="98" id="4Gc-EB-L6k"/>
+                                    <constraint firstAttribute="trailing" secondItem="n24-8K-YhJ" secondAttribute="trailing" constant="8" id="5iP-v1-OYS"/>
+                                    <constraint firstItem="n24-8K-YhJ" firstAttribute="leading" secondItem="gx7-Ga-oDQ" secondAttribute="leading" constant="8" id="FTa-JT-ayn"/>
+                                    <constraint firstItem="AKc-Zc-HGX" firstAttribute="top" secondItem="wt4-rq-dke" secondAttribute="bottom" constant="57" id="HaM-or-JpO"/>
+                                    <constraint firstItem="AKc-Zc-HGX" firstAttribute="leading" secondItem="gx7-Ga-oDQ" secondAttribute="leading" constant="8" id="IDP-V5-7QA"/>
+                                    <constraint firstItem="Bxz-0R-LHQ" firstAttribute="top" secondItem="AKc-Zc-HGX" secondAttribute="bottom" constant="24" id="QOx-Vv-QnB"/>
+                                    <constraint firstItem="wt4-rq-dke" firstAttribute="top" secondItem="gx7-Ga-oDQ" secondAttribute="top" constant="35" id="RlU-kr-Dyn"/>
+                                    <constraint firstAttribute="bottom" secondItem="n24-8K-YhJ" secondAttribute="bottom" constant="110" id="ZBz-2K-2Th"/>
+                                    <constraint firstItem="wt4-rq-dke" firstAttribute="leading" secondItem="gx7-Ga-oDQ" secondAttribute="leading" constant="97" id="bFb-2D-Ong"/>
+                                    <constraint firstAttribute="trailing" secondItem="AKc-Zc-HGX" secondAttribute="trailing" constant="8" id="jhY-9Q-rgv"/>
+                                    <constraint firstItem="Bxz-0R-LHQ" firstAttribute="leading" secondItem="gx7-Ga-oDQ" secondAttribute="leading" constant="8" id="nh8-wV-iaN"/>
+                                    <constraint firstAttribute="trailing" secondItem="Bxz-0R-LHQ" secondAttribute="trailing" constant="8" id="pBO-xy-v81"/>
+                                    <constraint firstItem="n24-8K-YhJ" firstAttribute="top" secondItem="Bxz-0R-LHQ" secondAttribute="bottom" constant="27" id="uSu-ri-8BS"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gx7-Ga-oDQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="115" id="N8j-HI-NRW"/>
+                            <constraint firstItem="gx7-Ga-oDQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="54" id="bgV-ES-UOd"/>
+                            <constraint firstItem="2xZ-wM-cQb" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ifh-ri-UHv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gx7-Ga-oDQ" secondAttribute="trailing" constant="53" id="k2y-cf-NUs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gx7-Ga-oDQ" secondAttribute="bottom" constant="308" id="ozP-rN-dVJ"/>
+                            <constraint firstItem="2xZ-wM-cQb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qlh-gg-atD"/>
+                            <constraint firstItem="2xZ-wM-cQb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="vGM-kA-xtq"/>
+                            <constraint firstAttribute="bottom" secondItem="2xZ-wM-cQb" secondAttribute="bottom" id="w41-Ym-tgK"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="81.696428571428569"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="homepic" width="1600" height="1200"/>
+        <systemColor name="separatorColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

@@ -55,6 +55,22 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>bunny.ttf</string>
+		<string>.Orange Juice.ttf.icloud</string>
+		<string>Cherolina.ttf</string>
+		<string>Elena-PersonalUse.ttf</string>
+		<string>PonyMaker.ttf</string>
+		<string>Qualy Bold 2.ttf</string>
+		<string>Rainbow.ttf</string>
+		<string>Ready.ttf</string>
+		<string>.Hello.ttf.icloud</string>
+		<string>Happpyal-Regular.ttf</string>
+		<string>CaviarDreams.ttf</string>
+		<string>Paper Flowers.ttf</string>
+		<string>theboldfont.ttf</string>
+	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

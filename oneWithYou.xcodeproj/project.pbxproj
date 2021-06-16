@@ -14,6 +14,19 @@
 		1867F77D26793B6300CF2741 /* oneWithYou.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1867F77B26793B6300CF2741 /* oneWithYou.xcdatamodeld */; };
 		1867F77F26793B6700CF2741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1867F77E26793B6700CF2741 /* Assets.xcassets */; };
 		1867F78226793B6700CF2741 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1867F78026793B6700CF2741 /* LaunchScreen.storyboard */; };
+		4880B661267A2A6900BE8BAE /* Happpyal-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4880B65F267A2A6900BE8BAE /* Happpyal-Regular.ttf */; };
+		4880B662267A2A6900BE8BAE /* bunny.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4880B660267A2A6900BE8BAE /* bunny.ttf */; };
+		4880B664267A2A9B00BE8BAE /* Qualy Bold 2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4880B663267A2A9B00BE8BAE /* Qualy Bold 2.ttf */; };
+		4880B666267A2AB200BE8BAE /* theboldfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4880B665267A2AB200BE8BAE /* theboldfont.ttf */; };
+		4880B668267A2B0600BE8BAE /* .Orange Juice.ttf.icloud in Resources */ = {isa = PBXBuildFile; fileRef = 4880B667267A2B0600BE8BAE /* .Orange Juice.ttf.icloud */; };
+		4880B66A267A2B1200BE8BAE /* .Hello.ttf.icloud in Resources */ = {isa = PBXBuildFile; fileRef = 4880B669267A2B1200BE8BAE /* .Hello.ttf.icloud */; };
+		4880B671267A2B2500BE8BAE /* PonyMaker.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4880B66B267A2B2500BE8BAE /* PonyMaker.ttf */; };
+		4880B672267A2B2500BE8BAE /* Ready.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4880B66C267A2B2500BE8BAE /* Ready.ttf */; };
+		4880B674267A2B2500BE8BAE /* Elena-PersonalUse.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4880B66E267A2B2500BE8BAE /* Elena-PersonalUse.ttf */; };
+		4880B676267A2B2500BE8BAE /* Rainbow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4880B670267A2B2500BE8BAE /* Rainbow.ttf */; };
+		4880B678267A2B2C00BE8BAE /* Paper Flowers.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4880B677267A2B2C00BE8BAE /* Paper Flowers.ttf */; };
+		4880B67A267A2B3300BE8BAE /* CaviarDreams.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4880B679267A2B3300BE8BAE /* CaviarDreams.ttf */; };
+		4880B67C267A2B3800BE8BAE /* Cherolina.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4880B67B267A2B3800BE8BAE /* Cherolina.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +39,19 @@
 		1867F77E26793B6700CF2741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1867F78126793B6700CF2741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1867F78326793B6700CF2741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4880B65F267A2A6900BE8BAE /* Happpyal-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Happpyal-Regular.ttf"; sourceTree = "<group>"; };
+		4880B660267A2A6900BE8BAE /* bunny.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bunny.ttf; sourceTree = "<group>"; };
+		4880B663267A2A9B00BE8BAE /* Qualy Bold 2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Qualy Bold 2.ttf"; sourceTree = "<group>"; };
+		4880B665267A2AB200BE8BAE /* theboldfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theboldfont.ttf; sourceTree = "<group>"; };
+		4880B667267A2B0600BE8BAE /* .Orange Juice.ttf.icloud */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ".Orange Juice.ttf.icloud"; sourceTree = "<group>"; };
+		4880B669267A2B1200BE8BAE /* .Hello.ttf.icloud */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = .Hello.ttf.icloud; sourceTree = "<group>"; };
+		4880B66B267A2B2500BE8BAE /* PonyMaker.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PonyMaker.ttf; sourceTree = "<group>"; };
+		4880B66C267A2B2500BE8BAE /* Ready.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ready.ttf; sourceTree = "<group>"; };
+		4880B66E267A2B2500BE8BAE /* Elena-PersonalUse.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Elena-PersonalUse.ttf"; sourceTree = "<group>"; };
+		4880B670267A2B2500BE8BAE /* Rainbow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rainbow.ttf; sourceTree = "<group>"; };
+		4880B677267A2B2C00BE8BAE /* Paper Flowers.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Paper Flowers.ttf"; sourceTree = "<group>"; };
+		4880B679267A2B3300BE8BAE /* CaviarDreams.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CaviarDreams.ttf; sourceTree = "<group>"; };
+		4880B67B267A2B3800BE8BAE /* Cherolina.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cherolina.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +88,33 @@
 				1867F77426793B6300CF2741 /* SceneDelegate.swift */,
 				1867F77626793B6300CF2741 /* ViewController.swift */,
 				1867F77826793B6300CF2741 /* Main.storyboard */,
+				4880B67D267A2B4900BE8BAE /* Fonts */,
 				1867F77E26793B6700CF2741 /* Assets.xcassets */,
 				1867F78026793B6700CF2741 /* LaunchScreen.storyboard */,
 				1867F78326793B6700CF2741 /* Info.plist */,
 				1867F77B26793B6300CF2741 /* oneWithYou.xcdatamodeld */,
 			);
 			path = oneWithYou;
+			sourceTree = "<group>";
+		};
+		4880B67D267A2B4900BE8BAE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4880B667267A2B0600BE8BAE /* .Orange Juice.ttf.icloud */,
+				4880B660267A2A6900BE8BAE /* bunny.ttf */,
+				4880B67B267A2B3800BE8BAE /* Cherolina.ttf */,
+				4880B66E267A2B2500BE8BAE /* Elena-PersonalUse.ttf */,
+				4880B66B267A2B2500BE8BAE /* PonyMaker.ttf */,
+				4880B663267A2A9B00BE8BAE /* Qualy Bold 2.ttf */,
+				4880B670267A2B2500BE8BAE /* Rainbow.ttf */,
+				4880B66C267A2B2500BE8BAE /* Ready.ttf */,
+				4880B669267A2B1200BE8BAE /* .Hello.ttf.icloud */,
+				4880B65F267A2A6900BE8BAE /* Happpyal-Regular.ttf */,
+				4880B679267A2B3300BE8BAE /* CaviarDreams.ttf */,
+				4880B677267A2B2C00BE8BAE /* Paper Flowers.ttf */,
+				4880B665267A2AB200BE8BAE /* theboldfont.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,9 +174,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4880B676267A2B2500BE8BAE /* Rainbow.ttf in Resources */,
+				4880B67A267A2B3300BE8BAE /* CaviarDreams.ttf in Resources */,
 				1867F78226793B6700CF2741 /* LaunchScreen.storyboard in Resources */,
+				4880B671267A2B2500BE8BAE /* PonyMaker.ttf in Resources */,
+				4880B664267A2A9B00BE8BAE /* Qualy Bold 2.ttf in Resources */,
+				4880B674267A2B2500BE8BAE /* Elena-PersonalUse.ttf in Resources */,
+				4880B678267A2B2C00BE8BAE /* Paper Flowers.ttf in Resources */,
 				1867F77F26793B6700CF2741 /* Assets.xcassets in Resources */,
+				4880B67C267A2B3800BE8BAE /* Cherolina.ttf in Resources */,
+				4880B662267A2A6900BE8BAE /* bunny.ttf in Resources */,
+				4880B668267A2B0600BE8BAE /* .Orange Juice.ttf.icloud in Resources */,
+				4880B66A267A2B1200BE8BAE /* .Hello.ttf.icloud in Resources */,
+				4880B661267A2A6900BE8BAE /* Happpyal-Regular.ttf in Resources */,
 				1867F77A26793B6300CF2741 /* Main.storyboard in Resources */,
+				4880B666267A2AB200BE8BAE /* theboldfont.ttf in Resources */,
+				4880B672267A2B2500BE8BAE /* Ready.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
