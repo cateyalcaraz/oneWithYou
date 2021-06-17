@@ -33,11 +33,11 @@
             <objects>
                 <viewController title="welcome" id="QPv-TU-k27" customClass="welcomeViewController" customModule="oneWithYou" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MG3-hX-qaU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1546"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PoU-iW-CRJ">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1600"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1546"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finalFlower" translatesAutoresizingMaskIntoConstraints="NO" id="Aje-KM-HqS">
                                         <rect key="frame" x="-127" y="0.0" width="551" height="1600"/>
@@ -53,7 +53,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="One With You" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoR-C6-9I0">
-                                        <rect key="frame" x="20" y="137" width="374" height="38"/>
+                                        <rect key="frame" x="20" y="137" width="374" height="51.5"/>
                                         <fontDescription key="fontDescription" name="ElenaRegular" family="Elena" pointSize="44"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -137,7 +137,7 @@
                                         <color key="backgroundColor" red="1" green="0.91190362608005593" blue="0.7160155709913083" alpha="0.62047592474489799" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Le-1A-GHH">
-                                        <rect key="frame" x="30" y="374.5" width="354" height="30"/>
+                                        <rect key="frame" x="30" y="388" width="354" height="30"/>
                                         <fontDescription key="fontDescription" name="Qualy-Bold" family="Qualy" pointSize="15"/>
                                         <state key="normal" title="Go To Menu">
                                             <color key="titleColor" red="1" green="0.9263402932" blue="0.93645197930000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -146,7 +146,7 @@
                                             <segue destination="BYZ-38-t0r" kind="show" id="VpL-8H-jg4"/>
                                         </connections>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow png" translatesAutoresizingMaskIntoConstraints="NO" id="nwL-1C-jTL">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="downarrow" translatesAutoresizingMaskIntoConstraints="NO" id="nwL-1C-jTL">
                                         <rect key="frame" x="38" y="689" width="36" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -197,6 +197,7 @@
                             <constraint firstItem="PoU-iW-CRJ" firstAttribute="trailing" secondItem="af2-Pk-vQp" secondAttribute="trailing" id="tt0-9j-wX9"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="nMB-8H-Xmn"/>
                     <size key="freeformSize" width="414" height="1600"/>
                     <connections>
                         <outlet property="cateCircularImage" destination="JoI-mS-sKb" id="7rB-G7-LFL"/>
@@ -239,11 +240,11 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pl5-4s-49m">
-                                        <rect key="frame" x="45" y="175" width="325" height="112"/>
+                                        <rect key="frame" x="45" y="175" width="325" height="86"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="music" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iax-jN-WYY">
-                                                <rect key="frame" x="120" y="36" width="82" height="30"/>
+                                                <rect key="frame" x="121" y="28" width="82" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Happpyal-Regular" family="Happpyal" pointSize="30"/>
                                                 <nil key="textColor"/>
@@ -253,7 +254,7 @@
                                         <color key="backgroundColor" red="0.52596695284002826" green="0.64382603192570231" blue="0.61295466338754145" alpha="0.60824554645462536" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gNl-ID-bgi">
-                                        <rect key="frame" x="45" y="311" width="325" height="494"/>
+                                        <rect key="frame" x="45" y="269" width="325" height="494"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z9i-HV-Xij">
@@ -327,7 +328,7 @@
                                         <color key="backgroundColor" red="0.52596695284002826" green="0.64382603192570231" blue="0.61295466338754145" alpha="0.60824554645462536" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dn7-ax-1uW">
-                                        <rect key="frame" x="45" y="1014" width="325" height="503"/>
+                                        <rect key="frame" x="45" y="983" width="325" height="521"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sd9-gg-gno">
@@ -425,7 +426,7 @@
                                         <color key="backgroundColor" red="0.52596695284002826" green="0.64382603192570231" blue="0.61295466338754145" alpha="0.60824554645462536" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jzz-jA-bCH">
-                                        <rect key="frame" x="45" y="873" width="325" height="112"/>
+                                        <rect key="frame" x="45" y="842" width="325" height="112"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="breathing techniques" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vid-oB-nka">
@@ -438,10 +439,18 @@
                                         </subviews>
                                         <color key="backgroundColor" red="0.52596695284002826" green="0.64382603192570231" blue="0.61295466338754145" alpha="0.60824554645462536" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow png" translatesAutoresizingMaskIntoConstraints="NO" id="4ek-k8-MPa">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="downarrow" translatesAutoresizingMaskIntoConstraints="NO" id="4ek-k8-MPa">
                                         <rect key="frame" x="12" y="801" width="41" height="33"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCN-nu-ubn">
+                                        <rect key="frame" x="12" y="1512" width="41" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" image="backarrow"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="6DH-92-Z1m"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="zff-ra-Hye" firstAttribute="leading" secondItem="EKu-78-tg4" secondAttribute="leading" constant="-173" id="6xi-lP-Anw"/>
@@ -491,8 +500,55 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sug-kz-TkU">
-                                        <rect key="frame" x="0.0" y="-10" width="350" height="677"/>
+                                        <rect key="frame" x="0.0" y="-10" width="350" height="644"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSf-z6-9J4">
+                                                <rect key="frame" x="22" y="260" width="306" height="45"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.58771068729999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="21"/>
+                                                <state key="normal" title="learn more">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="sahButton:" destination="y6B-xn-1Ck" eventType="touchUpInside" id="S7h-GP-2pB"/>
+                                                    <action selector="sahButton:" destination="Dk4-l0-Yxt" eventType="touchUpInside" id="kKt-KQ-po0"/>
+                                                </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BLM" translatesAutoresizingMaskIntoConstraints="NO" id="eo6-Ud-ZQj">
+                                                <rect key="frame" x="15" y="317" width="145" height="131"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="24" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oBf-BP-Sih">
+                                                <rect key="frame" x="163" y="313" width="179" height="142"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">After the fatal shooting of Trayvon Martin in 2012 and the subsequent acquittal of his murderer, George Zimmerman, Black Lives Matter was founded in 2013. The organization aims to </string>
+                                                <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jyK-EE-V1R">
+                                                <rect key="frame" x="27" y="579" width="306" height="45"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.58771068729999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="21"/>
+                                                <state key="normal" title="learn more">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="blmButton:" destination="y6B-xn-1Ck" eventType="touchUpInside" id="cam-qJ-Piv"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ZN-Xw-7LM">
+                                                <rect key="frame" x="23" y="440" width="334" height="141"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">eliminate white supremacy and racial bias, particularly involving violence inflicted by police and self-proclaimed vigilantes. Aside from eradicating racial inequality, Black Lives Matter focuses on illuminating Black success by providing a platform to showcase creativity and excellence.</string>
+                                                <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
                                         <color key="backgroundColor" red="0.85954646871547502" green="0.74156950242119413" blue="0.74156950242119413" alpha="0.80248386812525874" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SAH" translatesAutoresizingMaskIntoConstraints="NO" id="XFh-UA-CNu">
@@ -507,19 +563,6 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSf-z6-9J4">
-                                        <rect key="frame" x="16" y="273" width="306" height="45"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.58771068729999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="21"/>
-                                        <state key="normal" title="learn more">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="sahButton:" destination="y6B-xn-1Ck" eventType="touchUpInside" id="S7h-GP-2pB"/>
-                                            <action selector="sahButton:" destination="Dk4-l0-Yxt" eventType="touchUpInside" id="kKt-KQ-po0"/>
-                                        </connections>
-                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SRF-qm-DBk">
                                         <rect key="frame" x="22" y="131" width="320" height="134"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -528,38 +571,14 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BLM" translatesAutoresizingMaskIntoConstraints="NO" id="eo6-Ud-ZQj">
-                                        <rect key="frame" x="6" y="345" width="145" height="131"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5iG-tt-fdR">
+                                        <rect key="frame" x="0.0" y="637" width="48" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="24" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oBf-BP-Sih">
-                                        <rect key="frame" x="154" y="341" width="179" height="142"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">After the fatal shooting of Trayvon Martin in 2012 and the subsequent acquittal of his murderer, George Zimmerman, Black Lives Matter was founded in 2013. The organization aims to </string>
-                                        <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="13"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jyK-EE-V1R">
-                                        <rect key="frame" x="18" y="607" width="306" height="45"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.58771068729999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="21"/>
-                                        <state key="normal" title="learn more">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
+                                        <state key="normal" image="backarrow"/>
                                         <connections>
-                                            <action selector="blmButton:" destination="y6B-xn-1Ck" eventType="touchUpInside" id="cam-qJ-Piv"/>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="yHo-iK-4gH"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ZN-Xw-7LM">
-                                        <rect key="frame" x="14" y="468" width="334" height="141"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <string key="text">eliminate white supremacy and racial bias, particularly involving violence inflicted by police and self-proclaimed vigilantes. Aside from eradicating racial inequality, Black Lives Matter focuses on illuminating Black success by providing a platform to showcase creativity and excellence.</string>
-                                        <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="13"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.96891449039999999" green="0.7502556709" blue="0.72845244840000001" alpha="0.68753296066659297" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -603,7 +622,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C27-0q-hcs">
-                                <rect key="frame" x="42" y="159" width="330" height="608"/>
+                                <rect key="frame" x="42" y="159" width="330" height="586"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hotlines" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TTO-1G-WPU">
@@ -613,20 +632,8 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I06-4S-fFx">
-                                        <rect key="frame" x="33" y="386" width="263" height="77"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.95510452990000005" green="0.84995806220000003" blue="0.73163527250000004" alpha="0.53767000574643919" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="16"/>
-                                        <state key="normal" title="learn about mental illnesses">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="learnButton:" destination="Ef7-3H-Yas" eventType="touchUpInside" id="0lX-GC-cCl"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugL-IY-3ab">
-                                        <rect key="frame" x="34" y="490" width="263" height="77"/>
+                                        <rect key="frame" x="34" y="479" width="263" height="77"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.95510452990000005" green="0.84995806220000003" blue="0.73163527250000004" alpha="0.53767000570000001" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="16"/>
@@ -661,9 +668,29 @@ National Alliance on Mental Illness: 1-800-950-6264
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I06-4S-fFx">
+                                        <rect key="frame" x="34" y="379" width="263" height="77"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.95510452990000005" green="0.84995806220000003" blue="0.73163527250000004" alpha="0.53767000574643919" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="16"/>
+                                        <state key="normal" title="learn about mental illnesses">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="learnButton:" destination="Ef7-3H-Yas" eventType="touchUpInside" id="0lX-GC-cCl"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W6m-wu-E3c">
+                                <rect key="frame" x="39" y="759" width="49" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="backarrow"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="99X-yG-D7O"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="so5-cm-DNG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -689,13 +716,13 @@ National Alliance on Mental Illness: 1-800-950-6264
                                 <rect key="frame" x="54" y="115" width="307" height="385"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MENU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wt4-rq-dke">
-                                        <rect key="frame" x="97" y="35" width="112" height="40"/>
+                                        <rect key="frame" x="97" y="35" width="112" height="47"/>
                                         <fontDescription key="fontDescription" name="Happpyal-Regular" family="Happpyal" pointSize="40"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="753" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n24-8K-YhJ">
-                                        <rect key="frame" x="8" y="241" width="291" height="34"/>
+                                        <rect key="frame" x="8" y="245" width="291" height="30"/>
                                         <color key="backgroundColor" red="0.95139625149999996" green="0.86502304220000004" blue="0.84711259019999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="15"/>
                                         <state key="normal" title="mental health + hotlines">
@@ -706,7 +733,7 @@ National Alliance on Mental Illness: 1-800-950-6264
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bxz-0R-LHQ">
-                                        <rect key="frame" x="8" y="180" width="291" height="34"/>
+                                        <rect key="frame" x="8" y="188" width="291" height="30"/>
                                         <color key="backgroundColor" red="0.95139625149999996" green="0.86502304220000004" blue="0.84711259019999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="15"/>
                                         <state key="normal" title="self improvement">
@@ -742,6 +769,14 @@ National Alliance on Mental Illness: 1-800-950-6264
                                     <constraint firstItem="n24-8K-YhJ" firstAttribute="top" secondItem="Bxz-0R-LHQ" secondAttribute="bottom" constant="27" id="uSu-ri-8BS"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wwp-V3-QWb">
+                                <rect key="frame" x="42" y="747" width="56" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="backarrow"/>
+                                <connections>
+                                    <segue destination="QPv-TU-k27" kind="show" id="ao5-na-m8J"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -763,13 +798,18 @@ National Alliance on Mental Illness: 1-800-950-6264
             <point key="canvasLocation" x="-57.971014492753625" y="-153.34821428571428"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="99X-yG-D7O"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="BLM" width="400" height="400"/>
         <image name="SAH" width="1080" height="1080"/>
         <image name="arrow png" width="500" height="500"/>
+        <image name="backarrow" width="512" height="512"/>
         <image name="cate5" width="2270" height="2264"/>
         <image name="cateyAlcaraz" width="1360" height="1361"/>
         <image name="curtains" width="720" height="1280"/>
+        <image name="downarrow" width="500" height="500"/>
         <image name="finalFlower" width="551" height="1158"/>
         <image name="hand" width="750" height="1125"/>
         <image name="homepic" width="1600" height="1200"/>
