@@ -79,19 +79,12 @@
                                                 <rect key="frame" x="23" y="326" width="144" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MnC-H5-DNY">
-                                                <rect key="frame" x="23" y="471" width="144" height="128"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cateyAlcaraz" translatesAutoresizingMaskIntoConstraints="NO" id="MnC-H5-DNY">
+                                                <rect key="frame" x="21" y="471" width="156" height="138"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sophie yang" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dsy-VF-OrE">
                                                 <rect key="frame" x="196" y="167" width="136" height="23"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="catey alcaraz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QYB-VZ-Afw">
-                                                <rect key="frame" x="196" y="471" width="136" height="22"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -112,6 +105,14 @@
                                                 <rect key="frame" x="196" y="326" width="136" height="24"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QYB-VZ-Afw">
+                                                <rect key="frame" x="185" y="455" width="149" height="170"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">catey alcaraz - Hi! I'm Catey, and I'm 16 years old and from Illinois. I took part in KWK to deepend my interest computer science, but I am also passionate about pursuing medicine and calling for social change!</string>
+                                                <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="11"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -500,7 +501,7 @@ National Alliance on Mental Illness: 1-800-950-6264
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="QMR-zQ-JzC" kind="show" id="JcK-Or-5cK"/>
+                                            <segue destination="QMR-zQ-JzC" kind="show" id="a5Q-jE-RNa"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -542,6 +543,7 @@ National Alliance on Mental Illness: 1-800-950-6264
         <image name="BLM" width="400" height="400"/>
         <image name="SAH" width="1080" height="1080"/>
         <image name="cate5" width="2270" height="2264"/>
+        <image name="cateyAlcaraz" width="1360" height="1361"/>
         <image name="curtains" width="720" height="1280"/>
         <image name="finalFlower" width="551" height="1158"/>
         <image name="hand" width="750" height="1125"/>

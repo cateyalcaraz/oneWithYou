@@ -9,25 +9,25 @@ import UIKit
 
 class RelaxationViewController: UIViewController {
 
-    @IBOutlet weak var spotifyHappyButton: UIButton!
+//    @IBOutlet weak var spotifyHappyButton: UIButton!
 
 
-    @IBAction func happyPressed(_ sender: UIButton) {
-        spotifyHappyButton.isHidden = false
-        if let url = NSURL(string: "https://www.spotify.com/us/") {
-        UIApplication.shared.open(url as URL, options:[:], completionHandler:nil)
-        }
-    }
-    
-    @IBAction func exercisesButton(_ sender: UIButton) {
+//    @IBAction func happyPressed(_ sender: UIButton) {
+//        spotifyHappyButton.isHidden = false
+//        if let url = NSURL(string: "https://www.spotify.com/us/") {
+//        UIApplication.shared.open(url as URL, options:[:], completionHandler:nil)
+//        }
+//    }
+//
+//    @IBAction func exercisesButton(_ sender: UIButton) {
         
-    }
+//    }
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-            spotifyHappyButton.isHidden = true
+//            spotifyHappyButton.isHidden = true
         
     }
     
@@ -42,4 +42,5 @@ class RelaxationViewController: UIViewController {
     }
     */
 
+//}
 }
