@@ -14,6 +14,8 @@ class welcomeViewController: UIViewController {
     
     @IBOutlet weak var cateCircularImage: UIImageView!
     
+    @IBOutlet weak var cateyCircularPhoto: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         sophieCircularImage.layer.cornerRadius = sophieCircularImage.frame.size.width/2
@@ -21,6 +23,11 @@ class welcomeViewController: UIViewController {
         
        cateCircularImage.layer.cornerRadius = cateCircularImage.frame.size.width/2
    cateCircularImage.clipsToBounds = true
+        
+        cateyCircularPhoto.layer.cornerRadius = cateyCircularPhoto.frame.size.width/2
+    cateyCircularPhoto.clipsToBounds = true
+        
+ 
         }
     
 

@@ -76,15 +76,15 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cate5" translatesAutoresizingMaskIntoConstraints="NO" id="JoI-mS-sKb">
-                                                <rect key="frame" x="23" y="326" width="144" height="128"/>
+                                                <rect key="frame" x="23" y="320" width="144" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cateyAlcaraz" translatesAutoresizingMaskIntoConstraints="NO" id="MnC-H5-DNY">
-                                                <rect key="frame" x="21" y="471" width="156" height="138"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cateyAlcaraz" translatesAutoresizingMaskIntoConstraints="NO" id="MnC-H5-DNY">
+                                                <rect key="frame" x="21" y="471" width="146" height="138"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sophie yang" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dsy-VF-OrE">
-                                                <rect key="frame" x="196" y="167" width="136" height="23"/>
+                                                <rect key="frame" x="45" y="296" width="100" height="23"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -102,16 +102,31 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="cate cannon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBT-BU-CQN">
-                                                <rect key="frame" x="196" y="326" width="136" height="24"/>
+                                                <rect key="frame" x="44" y="449" width="100" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="catey alcaraz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e6Q-fA-eud">
+                                                <rect key="frame" x="39" y="610" width="110" height="25"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QYB-VZ-Afw">
-                                                <rect key="frame" x="185" y="455" width="149" height="170"/>
+                                                <rect key="frame" x="185" y="455" width="155" height="170"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">catey alcaraz - Hi! I'm Catey, and I'm 16 years old and from Illinois. I took part in KWK to deepend my interest computer science, but I am also passionate about pursuing medicine and calling for social change!</string>
+                                                <string key="text">Hi! I'm Catey, and I'm 16 years old and from Illinois. I took part in KWK to deepen my interest computer science, but I am also passionate about pursuing medicine and calling for social change!</string>
+                                                <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="11"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJi-Vm-rOI">
+                                                <rect key="frame" x="183" y="319" width="157" height="129"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Hey there! I'm Cate, one of the creators of One With You! I'm 17 years old and from Florida. I wanted to be apart of KWK 2021 to pursue my interest in computer science and widen the role of females in the field!</string>
                                                 <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="11"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -161,6 +176,7 @@
                     <size key="freeformSize" width="414" height="1600"/>
                     <connections>
                         <outlet property="cateCircularImage" destination="JoI-mS-sKb" id="7rB-G7-LFL"/>
+                        <outlet property="cateyCircularPhoto" destination="MnC-H5-DNY" id="e73-2B-rDB"/>
                         <outlet property="sophieCircularImage" destination="AOb-BV-QKr" id="hD0-6s-aVM"/>
                     </connections>
                 </viewController>
