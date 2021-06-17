@@ -9,6 +9,7 @@ import UIKit
 
 class welcomeViewController: UIViewController {
 
+    @IBOutlet weak var showQuote: UILabel!
     
     @IBOutlet weak var sophieCircularImage: UIImageView!
     
@@ -18,6 +19,8 @@ class welcomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         sophieCircularImage.layer.cornerRadius = sophieCircularImage.frame.size.width/2
         sophieCircularImage.clipsToBounds = true
         
@@ -30,7 +33,11 @@ class welcomeViewController: UIViewController {
  
         }
     
-
+    @IBAction func quoteButton(_ sender: UIButton) {
+        let array = ["There is a past version of you that is so proud of how far you have come", "Focus on the step in front of you, not the whole staircase", "Give yourself some credit for how far you have come", "Do more things that bring you real and honest joy", "Don't rush the process. Good things take time", "Small steps everyday"]
+        showQuote.text = array.randomElement()
+    }
+    
     /*
     // MARK: - Navigation
 
