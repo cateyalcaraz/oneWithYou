@@ -19,9 +19,9 @@ class RelaxationViewController: UIViewController {
     @IBAction func sliderCountdown(_ sender: UISlider) {
         seconds = Int(sender.value)
         secondsLabel.text = String(seconds) + " seconds"
+        //changes seconds as you scroll
     }
     
-    @IBOutlet weak var startOutlet: UIButton!
     @IBAction func startButton(_ sender: UIButton) {
         timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(counter), userInfo: nil, repeats: true)
     }
