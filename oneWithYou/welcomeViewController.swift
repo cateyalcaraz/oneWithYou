@@ -9,12 +9,18 @@ import UIKit
 
 class welcomeViewController: UIViewController {
 
-    @IBOutlet weak var sophiePicture: UIImageView!
     
+    @IBOutlet weak var sophieCircularImage: UIImageView!
     
+    @IBOutlet weak var cateCircularImage: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        sophieCircularImage.layer.cornerRadius = sophieCircularImage.frame.size.width/2
+        sophieCircularImage.clipsToBounds = true
+        
+       cateCircularImage.layer.cornerRadius = cateCircularImage.frame.size.width/2
+   cateCircularImage.clipsToBounds = true
         }
     
 

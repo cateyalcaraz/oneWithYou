@@ -8,8 +8,20 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="CaviarDreams.ttf">
+            <string>CaviarDreams</string>
+        </array>
+        <array key="Cherolina.ttf">
+            <string>Cherolina</string>
+        </array>
+        <array key="Elena-PersonalUse.ttf">
+            <string>ElenaRegular</string>
+        </array>
         <array key="Happpyal-Regular.ttf">
             <string>Happpyal-Regular</string>
+        </array>
+        <array key="Qualy Bold 2.ttf">
+            <string>Qualy-Bold</string>
         </array>
         <array key="bunny.ttf">
             <string>bunny</string>
@@ -33,30 +45,21 @@
                                             <constraint firstAttribute="height" constant="1600" id="mCR-tj-gWh"/>
                                         </constraints>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Le-1A-GHH">
-                                        <rect key="frame" x="235" y="406" width="83" height="30"/>
-                                        <state key="normal" title="Go To Menu">
-                                            <color key="titleColor" red="1" green="0.9263402932" blue="0.93645197930000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="BYZ-38-t0r" kind="show" id="VpL-8H-jg4"/>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBr-gy-oGe">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome To" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBr-gy-oGe">
                                         <rect key="frame" x="72" y="66" width="270" height="77"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <fontDescription key="fontDescription" name="Cherolina" family="Cherolina" pointSize="40"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="One With You" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoR-C6-9I0">
-                                        <rect key="frame" x="85" y="137" width="240" height="49"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="One With You" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoR-C6-9I0">
+                                        <rect key="frame" x="20" y="137" width="374" height="35"/>
+                                        <fontDescription key="fontDescription" name="ElenaRegular" family="Elena" pointSize="40"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="inspirational quote" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zqE-Bq-sZr">
-                                        <rect key="frame" x="118" y="260" width="174" height="20.5"/>
+                                        <rect key="frame" x="118" y="246" width="174" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -68,11 +71,11 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Us!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hQb-ib-gMK">
                                                 <rect key="frame" x="23" y="8" width="309" height="68"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                                <fontDescription key="fontDescription" name="Happpyal-Regular" family="Happpyal" pointSize="40"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JoI-mS-sKb">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cate5" translatesAutoresizingMaskIntoConstraints="NO" id="JoI-mS-sKb">
                                                 <rect key="frame" x="23" y="326" width="144" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
@@ -80,53 +83,64 @@
                                                 <rect key="frame" x="23" y="471" width="144" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dsy-VF-OrE">
-                                                <rect key="frame" x="196" y="167" width="136" height="128"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sophie yang" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dsy-VF-OrE">
+                                                <rect key="frame" x="196" y="167" width="136" height="23"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBT-BU-CQN">
-                                                <rect key="frame" x="196" y="326" width="136" height="128"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="catey alcaraz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QYB-VZ-Afw">
+                                                <rect key="frame" x="196" y="471" width="136" height="22"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QYB-VZ-Afw">
-                                                <rect key="frame" x="196" y="471" width="136" height="128"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AOb-BV-QKr">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sophie3" translatesAutoresizingMaskIntoConstraints="NO" id="AOb-BV-QKr">
                                                 <rect key="frame" x="23" y="167" width="144" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="kwk 2021" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbn-I4-FtB">
-                                                <rect key="frame" x="21" y="69" width="313" height="21"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="KWK 2021" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbn-I4-FtB">
+                                                <rect key="frame" x="21" y="69" width="313" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="CaviarDreams" family="Caviar Dreams" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="cate cannon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JBT-BU-CQN">
+                                                <rect key="frame" x="196" y="326" width="136" height="24"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.91190362608005593" blue="0.7160155709913083" alpha="0.62047592474489799" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Le-1A-GHH">
+                                        <rect key="frame" x="30" y="392" width="354" height="30"/>
+                                        <fontDescription key="fontDescription" name="Qualy-Bold" family="Qualy" pointSize="15"/>
+                                        <state key="normal" title="Go To Menu">
+                                            <color key="titleColor" red="1" green="0.9263402932" blue="0.93645197930000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="VpL-8H-jg4"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="eoR-C6-9I0" firstAttribute="top" secondItem="PoU-iW-CRJ" secondAttribute="top" constant="137" id="3bW-9v-fAV"/>
                                     <constraint firstAttribute="bottom" secondItem="Aje-KM-HqS" secondAttribute="bottom" id="5sc-Vu-eVM"/>
+                                    <constraint firstItem="eoR-C6-9I0" firstAttribute="leading" secondItem="PoU-iW-CRJ" secondAttribute="leading" constant="20" id="BoI-uy-fmn"/>
                                     <constraint firstItem="Aje-KM-HqS" firstAttribute="top" secondItem="PoU-iW-CRJ" secondAttribute="top" id="Joo-wO-lnp"/>
                                     <constraint firstAttribute="trailing" secondItem="zqE-Bq-sZr" secondAttribute="trailing" constant="122" id="Kag-1G-hPc"/>
                                     <constraint firstAttribute="trailing" secondItem="Aje-KM-HqS" secondAttribute="trailing" constant="-10" id="PDN-DM-bgL"/>
                                     <constraint firstItem="6Le-1A-GHH" firstAttribute="top" secondItem="zqE-Bq-sZr" secondAttribute="bottom" constant="125.5" id="PHi-gO-Cj1"/>
-                                    <constraint firstAttribute="trailing" secondItem="eoR-C6-9I0" secondAttribute="trailing" constant="89" id="Raj-Xu-rBx"/>
+                                    <constraint firstItem="6Le-1A-GHH" firstAttribute="leading" secondItem="PoU-iW-CRJ" secondAttribute="leading" constant="30" id="UoT-RC-wVC"/>
                                     <constraint firstItem="zqE-Bq-sZr" firstAttribute="leading" secondItem="PoU-iW-CRJ" secondAttribute="leading" constant="118" id="egK-Bd-at5"/>
-                                    <constraint firstAttribute="trailing" secondItem="6Le-1A-GHH" secondAttribute="trailing" constant="96" id="kPY-8n-np8"/>
-                                    <constraint firstItem="eoR-C6-9I0" firstAttribute="leading" secondItem="PoU-iW-CRJ" secondAttribute="leading" constant="85" id="kvg-3P-j9Z"/>
+                                    <constraint firstAttribute="trailing" secondItem="6Le-1A-GHH" secondAttribute="trailing" constant="30" id="gGJ-5B-leb"/>
+                                    <constraint firstAttribute="trailing" secondItem="eoR-C6-9I0" secondAttribute="trailing" constant="20" id="qEQ-8u-tDk"/>
                                     <constraint firstItem="zqE-Bq-sZr" firstAttribute="top" secondItem="eoR-C6-9I0" secondAttribute="bottom" constant="74" id="qwS-1m-pJx"/>
                                     <constraint firstItem="zqE-Bq-sZr" firstAttribute="top" secondItem="eoR-C6-9I0" secondAttribute="bottom" constant="74" id="wSb-pb-IWl"/>
                                     <constraint firstItem="Aje-KM-HqS" firstAttribute="leading" secondItem="PoU-iW-CRJ" secondAttribute="leading" constant="-127" id="zHw-b2-psj"/>
@@ -144,6 +158,10 @@
                         </constraints>
                     </view>
                     <size key="freeformSize" width="414" height="1600"/>
+                    <connections>
+                        <outlet property="cateCircularImage" destination="JoI-mS-sKb" id="7rB-G7-LFL"/>
+                        <outlet property="sophieCircularImage" destination="AOb-BV-QKr" id="hD0-6s-aVM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ENX-nl-kHf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -477,6 +495,7 @@ National Alliance on Mental Illness: 1-800-950-6264
                                         <rect key="frame" x="8" y="127" width="291" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.95098859069999997" green="0.86718219519999995" blue="0.84761804340000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="15"/>
                                         <state key="normal" title="relaxation">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -522,11 +541,13 @@ National Alliance on Mental Illness: 1-800-950-6264
     <resources>
         <image name="BLM" width="400" height="400"/>
         <image name="SAH" width="1080" height="1080"/>
+        <image name="cate5" width="2270" height="2264"/>
         <image name="curtains" width="720" height="1280"/>
         <image name="finalFlower" width="551" height="1158"/>
         <image name="hand" width="750" height="1125"/>
         <image name="homepic" width="1600" height="1200"/>
         <image name="rainbow" width="463" height="720"/>
+        <image name="sophie3" width="876" height="782"/>
         <systemColor name="separatorColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
