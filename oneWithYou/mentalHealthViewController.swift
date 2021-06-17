@@ -9,6 +9,19 @@ import UIKit
 
 class mentalHealthViewController: UIViewController {
 
+    
+    @IBAction func learnButton(_ sender: UIButton) {
+        if let url = NSURL(string: "https://www.nami.org/About-Mental-Illness/Mental-Health-Conditions") {
+            UIApplication.shared.open(url as URL, options:[:], completionHandler:nil)
+            }
+    }
+    
+    @IBAction func whatButton(_ sender: UIButton) {
+        if let url = NSURL(string: "https://www.medicalnewstoday.com/articles/154543#definition") {
+            UIApplication.shared.open(url as URL, options:[:], completionHandler:nil)
+            }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

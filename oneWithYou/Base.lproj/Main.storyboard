@@ -53,13 +53,13 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="One With You" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoR-C6-9I0">
-                                        <rect key="frame" x="20" y="137" width="374" height="35"/>
+                                        <rect key="frame" x="20" y="137" width="374" height="47"/>
                                         <fontDescription key="fontDescription" name="ElenaRegular" family="Elena" pointSize="40"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="inspirational quote" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zqE-Bq-sZr">
-                                        <rect key="frame" x="118" y="246" width="174" height="20.5"/>
+                                        <rect key="frame" x="118" y="258" width="174" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -126,7 +126,15 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJi-Vm-rOI">
                                                 <rect key="frame" x="183" y="319" width="157" height="129"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">Hey there! I'm Cate, one of the creators of One With You! I'm 17 years old and from Florida. I wanted to be apart of KWK 2021 to pursue my interest in computer science and widen the role of females in the field!</string>
+                                                <string key="text">Hey there! I'm Cate, one of the creators of One With You! I'm 17 years old and from Florida. I wanted to be a part of KWK 2021 to pursue my interest in computer science and widen the role of females in the field!</string>
+                                                <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="11"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wDg-8a-Tzf">
+                                                <rect key="frame" x="185" y="167" width="157" height="129"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Hi! I'm Sophie! I'm from Illinois and I'm 17 years old. I joined KWK because I wanted to learn how to code and design. I'm also interested in medicine, journalism and film. </string>
                                                 <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="11"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -135,7 +143,7 @@
                                         <color key="backgroundColor" red="1" green="0.91190362608005593" blue="0.7160155709913083" alpha="0.62047592474489799" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Le-1A-GHH">
-                                        <rect key="frame" x="30" y="392" width="354" height="30"/>
+                                        <rect key="frame" x="30" y="404" width="354" height="30"/>
                                         <fontDescription key="fontDescription" name="Qualy-Bold" family="Qualy" pointSize="15"/>
                                         <state key="normal" title="Go To Menu">
                                             <color key="titleColor" red="1" green="0.9263402932" blue="0.93645197930000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -232,12 +240,18 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.58771068729999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="anxious"/>
+                                                <connections>
+                                                    <action selector="anxiousButton:" destination="QMR-zQ-JzC" eventType="touchUpInside" id="C1r-Fh-w67"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dWA-nD-Unl">
                                                 <rect key="frame" x="61" y="109" width="205" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.58771068729999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="sad"/>
+                                                <connections>
+                                                    <action selector="sadButton:" destination="QMR-zQ-JzC" eventType="touchUpInside" id="N20-bP-0eg"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="how are you feeling today?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ohm-Bc-2Hc">
                                                 <rect key="frame" x="61" y="29" width="203" height="21"/>
@@ -246,18 +260,37 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yc7-P3-REA">
-                                                <rect key="frame" x="72" y="232" width="183" height="183"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title="&lt;playlist&gt;"/>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eez-A8-0xr">
                                                 <rect key="frame" x="61" y="71" width="205" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5877106873022645" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="happy"/>
                                                 <connections>
-                                                    <action selector="happyPressed:" destination="QMR-zQ-JzC" eventType="touchUpInside" id="Vyr-S7-1dS"/>
+                                                    <action selector="happyButton:" destination="QMR-zQ-JzC" eventType="touchUpInside" id="Xfx-c1-3Am"/>
+                                                </connections>
+                                            </button>
+                                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yc7-P3-REA">
+                                                <rect key="frame" x="33" y="203" width="260" height="260"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="spotifygreen"/>
+                                                <connections>
+                                                    <action selector="spotifyHappyLink:" destination="QMR-zQ-JzC" eventType="touchUpInside" id="VXe-Oq-QRZ"/>
+                                                </connections>
+                                            </button>
+                                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nok-lh-Goy">
+                                                <rect key="frame" x="33" y="203" width="260" height="260"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="spotifyblue"/>
+                                                <connections>
+                                                    <action selector="spotifySadLink:" destination="QMR-zQ-JzC" eventType="touchUpInside" id="93a-Oo-u57"/>
+                                                </connections>
+                                            </button>
+                                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R8q-Mj-Nct">
+                                                <rect key="frame" x="33" y="203" width="260" height="260"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" image="spotifybeige"/>
+                                                <connections>
+                                                    <action selector="spotifyAnxiousLink:" destination="QMR-zQ-JzC" eventType="touchUpInside" id="eCx-Kr-51F"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -275,9 +308,6 @@
                                                 <state key="normal" title="exercises">
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
-                                                <connections>
-                                                    <action selector="exercisesButton:" destination="QMR-zQ-JzC" eventType="touchUpInside" id="4HU-vB-xT1"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.52596695284002826" green="0.64382603192570231" blue="0.61295466338754145" alpha="0.60824554645462536" colorSpace="custom" customColorSpace="displayP3"/>
@@ -317,8 +347,9 @@
                     <navigationItem key="navigationItem" id="QmP-KL-s7H"/>
                     <size key="freeformSize" width="414" height="1600"/>
                     <connections>
-                        <outlet property="happyPressed" destination="Eez-A8-0xr" id="LDN-0V-oau"/>
-                        <outlet property="spotifyHappyButton" destination="Yc7-P3-REA" id="ItV-KR-n5d"/>
+                        <outlet property="anxiousSpotifyButton" destination="R8q-Mj-Nct" id="zQz-cq-h20"/>
+                        <outlet property="happySpotifyButton" destination="Yc7-P3-REA" id="KSl-59-e26"/>
+                        <outlet property="sadSpotifyButton" destination="nok-lh-Goy" id="1qR-OB-OTr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bpe-3y-YBg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -337,16 +368,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="self-improvement" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WjN-95-vbW">
-                                <rect key="frame" x="32" y="57" width="350" height="63"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.96891449037874522" green="0.75025567091159728" blue="0.72845244842708745" alpha="0.56027429282259777" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Fi-ou-lXq">
-                                <rect key="frame" x="32" y="168" width="350" height="606"/>
+                                <rect key="frame" x="32" y="133" width="350" height="641"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SAH" translatesAutoresizingMaskIntoConstraints="NO" id="XFh-UA-CNu">
@@ -354,7 +377,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BLM" translatesAutoresizingMaskIntoConstraints="NO" id="eo6-Ud-ZQj">
-                                        <rect key="frame" x="8" y="318" width="155" height="140"/>
+                                        <rect key="frame" x="8" y="301" width="145" height="131"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stop Asian Hate is a movement...." lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMD-ow-gia">
@@ -364,15 +387,8 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Black Lives Matter is a movement...." lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oBf-BP-Sih">
-                                        <rect key="frame" x="171" y="323" width="179" height="135"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSf-z6-9J4">
-                                        <rect key="frame" x="22" y="195" width="306" height="45"/>
+                                        <rect key="frame" x="22" y="238" width="306" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.58771068729999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="26"/>
@@ -384,8 +400,16 @@
                                             <action selector="sahButton:" destination="Dk4-l0-Yxt" eventType="touchUpInside" id="kKt-KQ-po0"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="24" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oBf-BP-Sih">
+                                        <rect key="frame" x="150" y="301" width="200" height="263"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">After the fatal shooting of Trayvon Martin in 2012 and the subsequent acquittal of his murderer, George Zimmerman, Black Lives Matter was founded in 2013. The organization aims to eliminate white supremacy and racial bias, particularly involving violence inflicted by police and self-proclaimed vigilantes. Aside from eradicating racial inequality, Black Lives Matter focuses on illuminating Black success by providing a platform to showcase creativity and excellence.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jyK-EE-V1R">
-                                        <rect key="frame" x="22" y="493" width="306" height="45"/>
+                                        <rect key="frame" x="22" y="572" width="306" height="45"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.58771068729999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="26"/>
@@ -399,6 +423,14 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.96891449039999999" green="0.7502556709" blue="0.72845244840000001" alpha="0.39170141931466829" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="self-improvement" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WjN-95-vbW">
+                                <rect key="frame" x="32" y="42" width="350" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96891449037874522" green="0.75025567091159728" blue="0.72845244842708745" alpha="0.56027429282259777" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Yl6-bu-BXv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -413,7 +445,7 @@
         <!--mental health-->
         <scene sceneID="sPT-AR-vgK">
             <objects>
-                <viewController title="mental health" id="Ef7-3H-Yas" sceneMemberID="viewController">
+                <viewController title="mental health" id="Ef7-3H-Yas" customClass="mentalHealthViewController" customModule="oneWithYou" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yzt-Ju-b71">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -453,6 +485,36 @@ National Alliance on Mental Illness: 1-800-950-6264
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I06-4S-fFx">
+                                        <rect key="frame" x="33" y="386" width="263" height="77"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.95510452990000005" green="0.84995806220000003" blue="0.73163527250000004" alpha="0.53767000574643919" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="learn about mental illnesses">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="learnButton:" destination="Ef7-3H-Yas" eventType="touchUpInside" id="0lX-GC-cCl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ugL-IY-3ab">
+                                        <rect key="frame" x="34" y="490" width="263" height="77"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.95510452990000005" green="0.84995806220000003" blue="0.73163527250000004" alpha="0.53767000570000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="learn about mental illnesses">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0py-Cd-Ev3">
+                                        <rect key="frame" x="33" y="286" width="263" height="77"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.95510452990000005" green="0.84995806220000003" blue="0.73163527250000004" alpha="0.53767000570000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="what is mental health?">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="whatButton:" destination="Ef7-3H-Yas" eventType="touchUpInside" id="aod-fu-0b7"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
@@ -469,6 +531,7 @@ National Alliance on Mental Illness: 1-800-950-6264
         <!--menu-->
         <scene sceneID="tne-QT-ifu">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController title="menu" id="BYZ-38-t0r" customClass="ViewController" customModule="oneWithYou" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -481,13 +544,13 @@ National Alliance on Mental Illness: 1-800-950-6264
                                 <rect key="frame" x="54" y="115" width="307" height="385"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MENU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wt4-rq-dke">
-                                        <rect key="frame" x="97" y="35" width="112" height="40"/>
+                                        <rect key="frame" x="97" y="35" width="112" height="47"/>
                                         <fontDescription key="fontDescription" name="Happpyal-Regular" family="Happpyal" pointSize="40"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="753" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n24-8K-YhJ">
-                                        <rect key="frame" x="8" y="241" width="291" height="34"/>
+                                        <rect key="frame" x="8" y="245" width="291" height="30"/>
                                         <color key="backgroundColor" red="0.95139625149999996" green="0.86502304220000004" blue="0.84711259019999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="15"/>
                                         <state key="normal" title="mental health + hotlines">
@@ -498,7 +561,7 @@ National Alliance on Mental Illness: 1-800-950-6264
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bxz-0R-LHQ">
-                                        <rect key="frame" x="8" y="180" width="291" height="34"/>
+                                        <rect key="frame" x="8" y="188" width="291" height="30"/>
                                         <color key="backgroundColor" red="0.95139625149999996" green="0.86502304220000004" blue="0.84711259019999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="15"/>
                                         <state key="normal" title="self improvement">
@@ -550,7 +613,6 @@ National Alliance on Mental Illness: 1-800-950-6264
                     </view>
                     <navigationItem key="navigationItem" id="Tzq-Jd-fNQ"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-57.971014492753625" y="-153.34821428571428"/>
         </scene>
@@ -566,6 +628,9 @@ National Alliance on Mental Illness: 1-800-950-6264
         <image name="homepic" width="1600" height="1200"/>
         <image name="rainbow" width="463" height="720"/>
         <image name="sophie3" width="876" height="782"/>
+        <image name="spotifybeige" width="1024" height="1024"/>
+        <image name="spotifyblue" width="1200" height="1200"/>
+        <image name="spotifygreen" width="1200" height="1200"/>
         <systemColor name="separatorColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
