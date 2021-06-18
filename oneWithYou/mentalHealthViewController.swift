@@ -22,6 +22,13 @@ class mentalHealthViewController: UIViewController {
             }
     }
     
+    
+    @IBAction func getHelpButton(_ sender: UIButton) {
+        if let url = NSURL(string: "https://www.mhanational.org/im-looking-mental-health-help-myself") {
+            UIApplication.shared.open(url as URL, options:[:], completionHandler:nil)
+            }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

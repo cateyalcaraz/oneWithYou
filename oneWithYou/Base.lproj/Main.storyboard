@@ -53,7 +53,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="One With You" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoR-C6-9I0">
-                                        <rect key="frame" x="20" y="137" width="374" height="38"/>
+                                        <rect key="frame" x="20" y="137" width="374" height="51.5"/>
                                         <fontDescription key="fontDescription" name="ElenaRegular" family="Elena" pointSize="44"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -137,7 +137,7 @@
                                         <color key="backgroundColor" red="1" green="0.91190362608005593" blue="0.7160155709913083" alpha="0.62047592474489799" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Le-1A-GHH">
-                                        <rect key="frame" x="30" y="374.5" width="354" height="30"/>
+                                        <rect key="frame" x="30" y="388" width="354" height="30"/>
                                         <fontDescription key="fontDescription" name="Qualy-Bold" family="Qualy" pointSize="15"/>
                                         <state key="normal" title="Go To Menu">
                                             <color key="titleColor" red="1" green="0.9263402932" blue="0.93645197930000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -647,7 +647,7 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="getHelpButton:" destination="Ef7-3H-Yas" eventType="touchUpInside" id="BFo-H9-EB9"/>
+                                            <action selector="getHelpButton:" destination="Ef7-3H-Yas" eventType="touchUpInside" id="T9w-TD-3gZ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0py-Cd-Ev3">
@@ -722,13 +722,13 @@ National Alliance on Mental Illness: 1-800-950-6264
                                 <rect key="frame" x="54" y="115" width="307" height="385"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MENU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wt4-rq-dke">
-                                        <rect key="frame" x="97" y="35" width="112" height="40"/>
+                                        <rect key="frame" x="97" y="35" width="112" height="47"/>
                                         <fontDescription key="fontDescription" name="Happpyal-Regular" family="Happpyal" pointSize="40"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="753" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n24-8K-YhJ">
-                                        <rect key="frame" x="8" y="241" width="291" height="34"/>
+                                        <rect key="frame" x="8" y="245" width="291" height="30"/>
                                         <color key="backgroundColor" red="0.95139625149999996" green="0.86502304220000004" blue="0.84711259019999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="15"/>
                                         <state key="normal" title="mental health + hotlines">
@@ -739,7 +739,7 @@ National Alliance on Mental Illness: 1-800-950-6264
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bxz-0R-LHQ">
-                                        <rect key="frame" x="8" y="180" width="291" height="34"/>
+                                        <rect key="frame" x="8" y="188" width="291" height="30"/>
                                         <color key="backgroundColor" red="0.95139625149999996" green="0.86502304220000004" blue="0.84711259019999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" name="bunny" family="bunny" pointSize="15"/>
                                         <state key="normal" title="self improvement">
@@ -805,7 +805,7 @@ National Alliance on Mental Illness: 1-800-950-6264
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="6DH-92-Z1m"/>
+        <segue reference="99X-yG-D7O"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BLM" width="400" height="400"/>
